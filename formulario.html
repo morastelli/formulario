@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        .BT1
+        {
+            background-color: lightgreen;
+        }
+        .BT2
+        {
+            background-color: lightcoral;
+        }
+        .BT1:hover
+        {
+            background-color: green;
+        }
+        .BT2:hover
+        {
+            background-color: red;
+        }
+        .Comentario
+        {
+            width: 200px;
+            height: 120px;
+            
+        }
+    </style>
+    
+</head>
+<body>
+    <fieldset>
+        <legend>Dados da Candidato a Presidente</legend>
+        Selecione um candidato:
+        <br> <br>
+        <select>
+            <option>Lula</option>
+            <option>Bolsonaro</option>
+            <option>Eimael</option>
+            <option>Padre Kelmon</option>
+        </select>
+        <br> <br>
+        Escolha quantos votos você quer inserir:
+        <br>
+            <input type="radio" name="votos">1
+        <br>
+            <input type="radio" name="votos">5
+        <br>
+            <input type="radio" name="votos">10
+        <br>
+            <input type="radio" name="votos">50
+        <br>
+            <input type="radio" name="votos">100
+        <br> <br>
+        Escolha a cor dos panfletos (MÁX: 2 CORES):
+        <br> <br>
+            <input type="checkbox">Vermelho
+        <br>
+            <input type="checkbox">Amarelo
+        <br>
+            <input type="checkbox">Verde
+        <br>
+            <input type="checkbox">Branco
+        <br>
+            <input type="checkbox">Azul
+        <br> <br>
+        Escolha a cor do terno do candidato:
+        <br> <br>
+        <input type = "color"
+
+    </fieldset>
+    <br> <br>
+    <fieldset>
+         <legend>Dados do Mandato</legend>
+         Qual será o tempo de Mandato: <input type="text">
+
+        <br>  <br>
+
+         Qual deve ser o vice-presidente: <input type="text">
+         
+        <br> <br>
+
+        Data do ínicio do mandato: <input type="Date">
+
+        <br> <br>
+
+        Ideais para o governo: <br>
+        <textarea class="Comentario"> </textarea>
+    </fieldset>
+    &nbsp;   &nbsp;  &nbsp; &nbsp; &nbsp;<button class="BT1">Enviar</button>
+    &nbsp;   &nbsp;  &nbsp;<button class="BT2">Limpar</button>
+</body>
+</html>
